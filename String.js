@@ -30,8 +30,12 @@ let result6 = text.includes("world");
 //match
 let result7 = text.match("ain");
 //replace
-let result8 = text.replace("Mam", "W3Schools");
+let result8 = text.replace("Mam", "Sir");
+//last-Index of
+let result9 = text.lastIndexOf("Mam");
+
 console.log(result);
 console.log(result6);
 console.log(result7);
 console.log(result8);
+console.log(result9);
