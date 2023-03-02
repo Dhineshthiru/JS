@@ -1,0 +1,14 @@
+
+var i = '{"Name":"Dhinesh","Email": "dhinesh@dorustree.in", "CN": "12345"}';
+var data = JSON.parse(j);
+document.write("Convert string in JSON format using parse() method<br>");
+document.write(data.Email);
+
+
+var j = {"Name":"Dhinesh",
+"Email": "dhinesh@dorustree.in", "CN" : 12345};
+var data = JSON.stringify(j);
+document.write("<br>Convert string in JSON format using stringify()  method<br>");
+document.write(data);
+
+ 

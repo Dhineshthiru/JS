@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <link rel="stylesheet" type="script/js" href="./form.js">
+  <body>
+    <style>
+         #textbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+      }
+
+      #input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <form id="registration-form">
+        <div class="name">
+      <label for="name">Name:</label>
+      <input class="textbox" type="text" id="name" name="name" required>
+      </div>
+<br>
+      <div class="email">
+      <label for="email">Email:</label>
+      <input class="textbox"  type="email" id="email" name="email" required>
+      </div>
+<br>
+    <div class="password">
+      <label for="password">Password:</label>
+      <input class="textbox" type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+      </div>
+<br>
+      <div class="confirm">
+      <label for="confirm-password">Confirm Password:</label>
+      <input class="textbox"  type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <script src="registration.js"></script>
+  </body>
+</html>

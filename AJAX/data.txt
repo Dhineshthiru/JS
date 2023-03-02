@@ -1,0 +1,1 @@
+This is a Sample program of AJAX call to a remote Webserver.
